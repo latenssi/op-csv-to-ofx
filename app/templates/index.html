@@ -1,0 +1,18 @@
+{% extends "_base.html" %}
+
+{% block content %}
+
+<div class="text-center">
+  <h1>Welcome!</h1>
+</div>
+
+<br>
+
+<form action="/" method="POST" enctype="multipart/form-data">
+  <div class="form-group">
+    <input type="file" name="file">
+  </div>
+  <input type="submit" class="btn btn-primary btn-lg btn-block" value="Submit">
+</form>
+
+{% endblock %}

@@ -1,0 +1,4 @@
+Flask
+gunicorn
+ofxstatement
+-e git+https://github.com/vukk/banking.statements.osuuspankki.git#egg=banking-statements-osuuspankki
