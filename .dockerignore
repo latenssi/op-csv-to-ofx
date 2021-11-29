@@ -1,3 +1,5 @@
 .git
+.vscode
+docker
 venv
 __pycache__
