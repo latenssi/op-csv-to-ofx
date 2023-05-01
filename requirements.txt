@@ -1,4 +1,4 @@
-Flask==1.1.2
+Flask==2.3.2
 gunicorn==20.0.4
 ofxstatement==0.8.0
 -e git+https://github.com/latenssi/banking.statements.osuuspankki.git@latenssi/op-late-2021#egg=banking-statements-osuuspankki
